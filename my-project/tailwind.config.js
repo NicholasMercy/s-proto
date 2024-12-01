@@ -12,30 +12,30 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          1: "#071013",
+          2: "#23B5D3",
+          3: "#75ABBC",
+          4: "#A2AEBB",
+          5: "#DFE0E2",
+          6: "#f93d5d",
+          7: "#1A1F16",
         },
         stroke: {
           1: "#26242C",
         },
         n: {
-          1: "#FFFFFF",
-          2: "#CAC6DD",
-          3: "#ADA8C3",
-          4: "#757185",
-          5: "#3F3A52",
-          6: "#252134",
+          1: "#071013",
+          2: "#23B5D3",
+          3: "#75ABBC",
+          4: "#A2AEBB",
+          5: "#DFE0E2",
+          6: "#f93d5d",
           7: "#15131D",
-          8: "#0E0C15",
-          9: "#474060",
-          10: "#43435C",
-          11: "#1B1B2E",
-          12: "#2E2A41",
-          13: "#6C7275",
+          8: "#071013",
+          9: "#23B5D3",
+          10: "#75ABBC",
+          11: "#A2AEBB",
+          12: "#DFE0E2",
         },
       },
       fontFamily: {
@@ -71,15 +71,44 @@ export default {
         DEFAULT: "0.0625rem",
       },
       backgroundImage: {
-        "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
-        "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
-        "benefit-card-1": "url(assets/benefits/card-1.svg)",
-        "benefit-card-2": "url(assets/benefits/card-2.svg)",
-        "benefit-card-3": "url(assets/benefits/card-3.svg)",
-        "benefit-card-4": "url(assets/benefits/card-4.svg)",
-        "benefit-card-5": "url(assets/benefits/card-5.svg)",
-        "benefit-card-6": "url(assets/benefits/card-6.svg)",
+        "gradient-to-t-1": "linear-gradient(to top, #071013, #1A1F16)", // darken
+        "gradient-to-r-1": "linear-gradient(to right, #071013, #1C2223)", // lighter shade
+        "gradient-to-b-1": "linear-gradient(to bottom, #071013, #1B1F20)", // darker shade
+        "gradient-to-l-1": "linear-gradient(to left, #071013, #1A1F16)", // darken
+        "gradient-to-br-1":
+          "linear-gradient(to bottom right, #071013, #1C2223)", // lightened shade
+
+        // Color 2 gradients
+        "gradient-to-t-2": "linear-gradient(to top, #23B5D3, #1E9B9C)", // lighter shade of 2
+        "gradient-to-r-2": "linear-gradient(to right, #23B5D3, #1E9B9C)", // lightened blue-green
+        "gradient-to-b-2": "linear-gradient(to bottom, #23B5D3, #1A7F87)", // darker blue-green
+        "gradient-to-l-2": "linear-gradient(to left, #23B5D3, #1E9B9C)", // lightened
+        "gradient-to-br-2":
+          "linear-gradient(to bottom right, #23B5D3, #1A7F87)", // darker blue-green
+
+        // Color 3 gradients
+        "gradient-to-t-3": "linear-gradient(to top, #75ABBC, #A2AEBB)", // slight shift
+        "gradient-to-r-3": "linear-gradient(to right, #75ABBC, #A2AEBB)", // smooth transition
+        "gradient-to-b-3": "linear-gradient(to bottom, #75ABBC, #A2AEBB)", // smooth transition
+        "gradient-to-l-3": "linear-gradient(to left, #75ABBC, #A2AEBB)", // smooth transition
+        "gradient-to-br-3":
+          "linear-gradient(to bottom right, #75ABBC, #A2AEBB)", // smooth transition
+
+        // Color 4 gradients
+        "gradient-to-t-4": "linear-gradient(to top, #A2AEBB, #B7C4D0)", // lighter shade of 4
+        "gradient-to-r-4": "linear-gradient(to right, #A2AEBB, #B7C4D0)", // lightened blue-grey
+        "gradient-to-b-4": "linear-gradient(to bottom, #A2AEBB, #BCC6D1)", // more lightened grey
+        "gradient-to-l-4": "linear-gradient(to left, #A2AEBB, #B7C4D0)", // lightened
+        "gradient-to-br-4":
+          "linear-gradient(to bottom right, #A2AEBB, #BCC6D1)", // lightened grey
+
+        // Color 5 gradients
+        "gradient-to-t-5": "linear-gradient(to top, #DFE0E2, #F4F5F7)", // lighter shade of 5
+        "gradient-to-r-5": "linear-gradient(to right, #DFE0E2, #F4F5F7)", // lightened grey
+        "gradient-to-b-5": "linear-gradient(to bottom, #DFE0E2, #F4F5F7)", // very lightened grey
+        "gradient-to-l-5": "linear-gradient(to left, #DFE0E2, #F4F5F7)", // lightened
+        "gradient-to-br-5":
+          "linear-gradient(to bottom right, #DFE0E2, #F4F5F7)", // very lightened grey
       },
     },
   },
