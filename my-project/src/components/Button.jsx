@@ -10,7 +10,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
   h-11 
   px-7 
   transition-all 
-  duration-300 
+  duration-200
   ease-in-out 
   rounded-full 
   border-2 
@@ -19,9 +19,8 @@ const Button = ({ className, href, onClick, children, px, white }) => {
   shadow-md 
   hover:shadow-lg 
   hover:scale-105 
-  hover:border-opacity-100 
-  hover:bg-opacity-95 
-  ${white ? "bg-color-1 text-color-5" : "bg-color-1 text-color-6"} 
+  hover:text-color-6
+  ${white ? "bg-color-1 text-color-5" : "bg-color-1 text-color-5"} 
   ${className || ""}
 `;
 
