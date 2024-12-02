@@ -21,12 +21,12 @@ const Section = ({
       {children}
 
       {/* Left Golf-Themed Line */}
-      <div className="hidden absolute top-0 left-5 w-1 h-full bg-gradient-to-b from-color-6 to-color-2 md:block lg:left-7.5 xl:left-10">
+      <div className="hidden absolute top-0 left-5 w-1 h-full bg-gradient-to-b from-color-6 to-color-2 md:block lg:left-7.5 xl:left-36">
         <div className="absolute top-0 left-[-0.5rem] w-4 h-4 bg-green-700 rounded-full"></div>
       </div>
 
       {/* Right Golf-Themed Line */}
-      <div className="hidden absolute top-0 right-5 w-1 h-full bg-gradient-to-b from-color-6 to-color-2 md:block lg:right-7.5 xl:right-10">
+      <div className="hidden absolute top-0 right-5 w-1 h-full bg-gradient-to-b from-color-6 to-color-2 md:block lg:right-7.5 xl:right-36">
         <div className="absolute top-0 right-[-0.5rem] w-4 h-4 bg-green-700 rounded-full"></div>
       </div>
 
