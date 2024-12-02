@@ -1,5 +1,6 @@
 {
   "name": "my-project",
+  "homepage": "https://NicholasMercy.github.io/React",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -31,6 +32,5 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^6.0.1"
-  },
-  "homepage": "https://NicholasMercy.github.io/React"
+  }
 }
