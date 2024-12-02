@@ -110,7 +110,7 @@ const Hero = () => {
             height={1800}
             alt="hero"
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-80"></div>
         </div>
         <BackgroundCircles />
       </div>
