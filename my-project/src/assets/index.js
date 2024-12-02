@@ -76,6 +76,8 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 import subzlogo from "./subzlogo.svg";
+import herogolf from "./herogolf.jpg";
+import clubswalking from "./clubswalking.jpg";
 
 export {
   brainwave,
@@ -147,4 +149,6 @@ export {
   telegram,
   twitter,
   subzlogo,
+  herogolf,
+  clubswalking,
 };
