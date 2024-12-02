@@ -1,5 +1,6 @@
 import { subzlogo } from "../assets";
 import { navigation } from "../constants";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
