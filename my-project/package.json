@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -32,7 +32,5 @@
     "tailwindcss": "^3.4.15",
     "vite": "^6.0.1"
   },
-  "properties": {
-    "homepage": "http://NicholasMercy.github.io/React"
-  }
+  "homepage": "https://NicholasMercy.github.io/React"
 }
