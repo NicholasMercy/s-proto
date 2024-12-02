@@ -9,11 +9,16 @@ import {
 } from "../assets";
 import Section from "./section";
 import Button from "./Button";
-
+import { BackgroundCircles, BottomLine, Gradient } from "../design/Hero";
+import { heroIcons } from "../constants";
+import { ScrollParallax } from "react-just-parallax";
+import { useRef } from "react";
 const Hero = () => {
+  const parallaxRef = useRef(null);
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem] bg-gradient-to-r-1 "
+      className="pt-[12rem] -mt-[5.25rem] bg-gradient-to-r-1"
+      ref={parallaxRef}
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
       id="hero">
@@ -73,6 +78,27 @@ const Hero = () => {
                 height={590}
                 alt="AI"
               />
+              <ScrollParallax isAbsolutelyPositioned>
+                <ul className="hidden absolute -right-[5.5rem] top-[2.5rem] px-1 py-1 bg-n-2/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                  <li className="p-5">
+                    <span className="text-lg text-white">ACCESSIBLE</span>
+                  </li>
+                </ul>
+              </ScrollParallax>
+              <ScrollParallax isAbsolutelyPositioned>
+                <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-7/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                  <li className="p-5">
+                    <span className="text-lg text-white">AFFORDABLE</span>
+                  </li>
+                </ul>
+              </ScrollParallax>
+              <ScrollParallax isAbsolutelyPositioned>
+                <ul className="hidden absolute -right-[5.5rem] bottom-[2.5rem] px-1 py-1 bg-n-6/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                  <li className="p-5">
+                    <span className="text-lg text-white">FLEXIBLE</span>
+                  </li>
+                </ul>
+              </ScrollParallax>
             </div>
           </div>
         </div>
@@ -86,6 +112,7 @@ const Hero = () => {
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
         </div>
+        <BackgroundCircles />
       </div>
     </Section>
   );
